@@ -1,0 +1,56 @@
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: C:/Users/Lenovo/.espressif/tools/idf-git/2.30.1/cmd/git.exe (found version "2.30.1.windows.1")
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/Lenovo/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/Lenovo/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/Lenovo/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/esp_exam/hello_world/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Users/Lenovo/.espressif/python_env/idf5.1_py3.8_env/Scripts/python.exe (found version "3.8.7") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "hello_world" version: 1
+-- Adding linker script C:/esp_exam/hello_world/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/ESP/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/ESP/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/ESP/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/ESP/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/ESP/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/ESP/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/ESP/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/ESP/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/ESP/components/app_trace C:/ESP/components/app_update C:/ESP/components/bootloader C:/ESP/components/bootloader_support C:/ESP/components/bt C:/ESP/components/cmock C:/ESP/components/console C:/ESP/components/cxx C:/ESP/components/driver C:/ESP/components/efuse C:/ESP/components/esp-tls C:/ESP/components/esp_adc C:/ESP/components/esp_app_format C:/ESP/components/esp_coex C:/ESP/components/esp_common C:/ESP/components/esp_eth C:/ESP/components/esp_event C:/ESP/components/esp_gdbstub C:/ESP/components/esp_hid C:/ESP/components/esp_http_client C:/ESP/components/esp_http_server C:/ESP/components/esp_https_ota C:/ESP/components/esp_https_server C:/ESP/components/esp_hw_support C:/ESP/components/esp_lcd C:/ESP/components/esp_local_ctrl C:/ESP/components/esp_mm C:/ESP/components/esp_netif C:/ESP/components/esp_netif_stack C:/ESP/components/esp_partition C:/ESP/components/esp_phy C:/ESP/components/esp_pm C:/ESP/components/esp_psram C:/ESP/components/esp_ringbuf C:/ESP/components/esp_rom C:/ESP/components/esp_system C:/ESP/components/esp_timer C:/ESP/components/esp_wifi C:/ESP/components/espcoredump C:/ESP/components/esptool_py C:/ESP/components/fatfs C:/ESP/components/freertos C:/ESP/components/hal C:/ESP/components/heap C:/ESP/components/http_parser C:/ESP/components/idf_test C:/ESP/components/ieee802154 C:/ESP/components/json C:/ESP/components/log C:/ESP/components/lwip C:/esp_exam/hello_world/main C:/ESP/components/mbedtls C:/ESP/components/mqtt C:/ESP/components/newlib C:/ESP/components/nvs_flash C:/ESP/components/openthread C:/ESP/components/partition_table C:/ESP/components/perfmon C:/ESP/components/protobuf-c C:/ESP/components/protocomm C:/ESP/components/pthread C:/ESP/components/sdmmc C:/ESP/components/soc C:/ESP/components/spi_flash C:/ESP/components/spiffs C:/ESP/components/tcp_transport C:/ESP/components/ulp C:/ESP/components/unity C:/ESP/components/usb C:/ESP/components/vfs C:/ESP/components/wear_levelling C:/ESP/components/wifi_provisioning C:/ESP/components/wpa_supplicant C:/ESP/components/xtensa
+-- Configuring done (187.8s)
+-- Generating done (1.4s)
+-- Build files have been written to: C:/esp_exam/hello_world/build
